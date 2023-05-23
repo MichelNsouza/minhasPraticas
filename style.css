@@ -22,24 +22,20 @@ body{
 }
 
 .container{
+    display: grid;
     height:100vh ;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px;
-    gap: 16px;
-
-    width: 512px;
-    height: 56px;
-
-    background: #167BF7;
+    background-color: var(--botao-azul);
     border-radius: 8px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    padding: 1EM;
+    color: var(--branco-principal);
+    display: block;
 }
 
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
