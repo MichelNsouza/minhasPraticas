@@ -4,100 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
-    
-    .main{
-        background-color: black;
-    }
-
-    .container{
-        position: absolute;         /*trabalhar no eixo Z, profundidade*/ 
-        display: flex;              /*controlar elementos de dentro*/
-        flex-direction: column;     /**/
-        overflow: hidden;           /*não criar barra de rolagem*/
-        perspective: 500px;         /**/
-        border: 1px solid white;  /**/
-        transition: box-shadow 1.3s; /**/
-    }
-
-    .img{
-        width: 800px;
-        height: 75px;
-        background-image: url(https://s1.static.brasilescola.uol.com.br/be/2022/05/iguana.jpg);
-        background-size: 800px 450px;
-        transition: 1.2s;
-        transform-origin: left;
-    }
-
-    .img:nth-child(1){
-        background-position: 0 0;
-        transition-delay: 0.1s;
-    }
-    .img:nth-child(2){
-        background-position: 0 -75px;
-        transition-delay: 0.2s;
-    }
-    .img:nth-child(3){
-        background-position: 0 -150px;
-        transition-delay: 0.3s;
-    }
-    .img:nth-child(4){
-        background-position: 0 -225px;
-        transition-delay: 0.4s;
-    }
-    .img:nth-child(5){
-        background-position: 0 -300px;
-        transition-delay: 0.5s;
-    }
-    .img:nth-child(6){
-        background-position: 0 -375px;
-        transition-delay: 0.6s;
-    }
-
-    .container:hover .img{
-        transform: rotateY(90deg);
-        opacity: 0;
-    }
-
-    .text {
-        font-family: 'Roboto', sans-serif;
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        padding: 50px;
-        box-sizing: border-box;
-      }
-      .text p {
-        font-size: 18px;
-        transform: scale(0);
-        transition: 0.5s;
-      }
-      .text h1 {
-        font-size: 48px;
-        transform: scale(0);
-        transition: 0.5s;
-      }
-      .container:hover {
-        border: 1px solid #ECECEC;
-        box-shadow: 0 0 50px #666;
-      }
-      .container:hover .text p,
-      .container:hover .text h1 {
-        transform: scale(1);
-        transition: 0.5;
-      }
-
-    </style>
-
+    <title>Iguana</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -111,10 +19,10 @@
 
         <div class="text">
             <h1>
-                Oi casada *-*
+                Hello *-*
             </h1>
             <p>
-                Bla bla bla iguana comedor de casada Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, nihil. Voluptas neque quia optio expedita! Reprehenderit similique, numquam voluptas laboriosam, recusandae libero modi magnam natus, obcaecati doloribus rem quisquam dolore.
+                Bla bla bla iguana  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, nihil. Voluptas neque quia optio expedita! Reprehenderit similique, numquam voluptas laboriosam, recusandae libero modi magnam natus, obcaecati doloribus rem quisquam dolore.
             </p>
         </div>
     </div>
