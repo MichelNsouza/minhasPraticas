@@ -20,14 +20,27 @@ body{
 }
 
 h1{
-    margin-bottom: 5%;
+    margin:2%;
 }
 .div{
+    display: flex;
     margin: 5%;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+.lista__link{
+    text-decoration: none;
+    margin: 2%;
 }
 
 a{
-    border: 1px solid black;
     padding: 5px;
+    background-color: rgb(167, 50, 50);
+    border: 1px solid black;
+    color: white;
     text-decoration: none;
 }
