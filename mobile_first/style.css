@@ -1,7 +1,10 @@
-    @import url(style/header.css);
+@import url(style/header.css);
 
-    :root {
-        --cor-de--fundo: #EBECEE;
-    }
+:root {
+    --cor-de--fundo: #EBECEE;
+
+    --branco: #ffff;
+}
+
 
 
