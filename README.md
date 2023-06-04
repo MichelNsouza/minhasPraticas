@@ -2,4 +2,5 @@
 ## Aqui vou por minhas praticas de HTML/CSS/JS de cursos e praticas solo
 ## Praticas pequenas que não precisem de um repositorio proprio
 
-https://michelnsouza.github.io/Praticando_HTLM_CSS/
+https://github.com/MichelNsouza/minhasPraticas
+https://michelnsouza.github.io/minhasPraticas/
