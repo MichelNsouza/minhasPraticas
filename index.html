@@ -1,101 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: black;
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praticas</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<style>
+  nav{
     display: flex;
-    justify-content: center;
-}
-
-.box__main{
-    display:block;
-    height:50vh ;
-    width: 50vh;
-    background-color: gray ;
-    padding: 5%;
     text-align: center;
-    margin: 5%;
-}
-
-h1{
-    margin:2%;
-}
-.div{
-    display: flex;
-    margin: 5%;
-}
-.lista{
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    
-}
-.lista__link{
-    text-decoration: none;
-    margin: 2%;
-}
-
-a{
-    padding: 5px;
-    background-color: rgb(167, 50, 50);
-    border: 1px solid black;
-    color: white;
-    text-decoration: none;
-}
-        
-    </style>
+    align-items: center;
+  }
+  main {
+    background-color: rgba(255, 0, 0, 0.546);
+    padding: 20px;
+  }
+  .card{
+    margin: 10px;
+  }
+</style>
 </head>
 <body>
-    <section class="box__main">
-        <div>
-            <ul class="lista">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.linkedin.com/in/michel-n-souza/">Linkedin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/MichelNsouza">Github</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+<div class="container">
 
-                <li class="lista__link">
-                    <a href="AluraPlus/aluraplus.html">Alura Plus</a>
-                </li> 
-                <li class="lista__link">
-                    <a href="https://michelnsouza.github.io/desafio_UN1D3V/">Desafio de ingresso no unidev</a>
-                </li>  
-                <li class="lista__link">    
-                    <a href="https://michelnsouza.github.io/projeto-android/">Desafio 10 curso em video </a>
-                </li>    
-                <li class="lista__link">    
-                    <a href="https://michelnsouza.github.io/projeto-cordel/">Desafio 12 curso em video</a>
-                </li>
-                <li class="lista__link">
-                    <a href="AnimacaoCss/largato.html">Largato c/ animação CSS</a>
-                </li>
-                <li class="lista__link">
-                    <a href="CssBoxModelFlexBox/venda.html">Tela Venda acampamento dev</a>
-                </li>
-                <li class="lista__link">
-                    <a href="/Praticando_HTLM_CSS/RelogioDigital/relogio.html">Relogio Digital</a>
-                </li>
-                <li class="lista__link">
-                    <a href="/Praticando_HTLM_CSS/portif/index.html">portif alura</a>
-                </li>
-                <li class="lista__link">
-                    <a href="/pageAdv/index.html">Page de Adv</a>
-                </li>
-                <li class="lista__link">
-                    <a href="/codecombat1/index.html">CodeCombat 1</a>
-                </li>
-                <li class="lista__link">
-                    <a href="/mobile_first/index.html">AluraBooks</a>
-                </li>
-                
-            </ul> 
-        </div>
-    </section>
+  <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Alura Plus</h5>
+        <p class="card-text">PAgina fictícia de um serviço da plataforma alura </p>
+        <a href="./AluraPlus/aluraplus.html"  type="button" class="btn btn-primary">Dê uma olhada</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Projeto Android</h5>
+        <p class="card-text">Desafio 10 da plataforma Curso em Video, pagina historia do Android</p>
+        <a href="https://michelnsouza.github.io/projetoAndroid/" type="button" class="btn btn-primary">Dê uma olhada</a>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Projeto Cordel</h5>
+        <p class="card-text">Desafio 12 da plataforma Curso em Video, apresentando um cordel</p>
+        <a href="https://michelnsouza.github.io/projetoCordel/" type="button" class="btn btn-primary">Dê uma olhada</a>
+
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Iguana Sexy</h5>
+        <p class="card-text">Animação divertida em CSS, proposta pelo blog Acampamento Dev</p>
+        <a href="./AnimacaoCss/largato.html" type="button" class="btn btn-primary">Dê uma olhada</a>
+
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Loja</h5>
+        <p class="card-text">Fragmento de site de venda,  proposta pelo blog Acampamento Dev</p>
+        <a href="./CssBoxModelFlexBox/venda.html" type="button" class="btn btn-primary">Dê uma olhada</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Relogio Digital</h5>
+        <p class="card-text">Tentativa de fazer um relogio digital </p>
+        <a href="./relogioDigital/relogio.html" type="button" class="btn btn-primary">Dê uma olhada</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Alura Portfolio</h5>
+        <p class="card-text">PAgina de apresentação/Portfolio adaptada de um curso HTML/CSS da alura</p>
+        <a href="./aluraPortif/index.html" type="button" class="btn btn-primary">Dê uma olhada</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">CodeCombat</h5>
+        <p class="card-text">Desafio do CodeCombat, pelo nucleo UN1D3V</p>
+        <a href="./codecombat1/index.html" type="button" class="btn btn-primary">Dê uma olhada</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">Alura Books</h5>
+        <p class="card-text">Aplicando Mobile Firt em uma pagina de venda de livros, curso alura</p>
+        <a href="./mobileFirst/index.html" type="button" class="btn btn-primary">Dê uma olhada</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 40rem;">
+      <div class="card-body">
+        <h5 class="card-title">#</h5>
+        <p class="card-text">#</p>
+        <a href="#" type="button" class="btn btn-primary">#</a>
+      </div>
+    </div>
+</div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy;All rights reserved.</p>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 </html>
